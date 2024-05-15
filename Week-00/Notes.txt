@@ -1,0 +1,10 @@
+Class-0.0
+What are browsers?
+Web browsers are software applications used to access and view information on the internet. They translate HTML code, which forms the backbone of web pages, into readable content such as text, images, videos, and interactive elements. Some of the most popular web browsers include Google Chrome, Mozilla Firefox, Apple Safari, Microsoft Edge, and Opera. These browsers provide features like tabbed browsing, bookmarking, security settings, and extensions/plugins to enhance the browsing experience. Each browser has its own interface, performance characteristics, and unique set of features, but they all serve the same fundamental purpose of enabling users to navigate the internet. 
+
+
+What are tags in HTML?
+tags are elements used to structure and define the content of a webpage.
+
+What are attributes in HTML?
+Attributes in HTML provide additional information about an element and are specified within the opening tag of the element
