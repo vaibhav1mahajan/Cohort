@@ -1,0 +1,30 @@
+Why do we need programming languages?
+We as a human can't write code in 0 and 1 , and computer only understands 0 and 1 so we develop programming languages so that we write code in human readable format and compiler compiles in 0 and 1. 
+
+What are compliers?
+Compliers convert high level, developer friendly codes into 0s and 1s
+
+Interpreted vs Complied
+Interpreted : runs code line by line without compiling the code , if your code has error on line 6 then it will execute till line 5
+Complied : it firsts compile the code and then run , if your code has error on line 6 , it will throw error while compiling
+
+
+Why javascript is better/popular than other languages
+because broweser only understands html /css/ js and thanks to node js so that we can run js outside the browsers
+
+Static vs dynamic languages?
+In static languages we need to declare type of data type at the time of initialization but there is no need of declare data type in dynmic languages
+
+Single threaded nature of javascript , it means your javascript code will always run on single core , you can't divide your js code to run on two cores
+
+Primitives in js 
+let , var , const ,array , objects, number, boolean,string
+
+Functions let you abstract out logic in your program , it takes input and return values as an output. You can think function as an independent program.
+
+Async nature of js
+The asynchronous (async) nature in JavaScript refers to the ability of the language to handle operations that can take some time to complete without blocking the execution of other operations. This is particularly important for tasks such as network requests, file reading, or timers, 
+
+Promises are syntactical sugar that makes the code slightly more readable
+
+All the async functions that you will write will be on top of some Js provided async functions 

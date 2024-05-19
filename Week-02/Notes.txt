@@ -1,0 +1,34 @@
+ECMAScript
+It is a scripting language specification on which javascript is based on
+
+Javascript
+It is a scripting language that conforms to the ECMAScript specification.
+It is the most widely and known impletation of ECMAScript
+Beyond ECMAScript javascript includes additional features that are not part of ECMAScript like DOM
+
+Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code on the server-side. It uses the V8 JavaScript engine
+
+In the context of programming languages and computing, a "runtime" (or "runtime environment") refers to the system or environment in which a program is executed. It provides the necessary infrastructure to execute programs written in a particular language. This includes not only the execution engine but also various services and libraries that programs might need to run.
+
+What can you do with Node.js?
+create clis , video player, game , HTTP server
+
+HTTP
+HTTP, or HyperText Transfer Protocol, is the foundational protocol used for transmitting data on the World Wide Web. It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands.
+HTTP is a crucial protocol for the web, enabling the exchange of information between clients (such as web browsers) and servers
+
+What is HTTP servers?
+ An HTTP server is a software application that serves web pages to clients over the HyperText Transfer Protocol (HTTP). 
+An HTTP server is responsible for accepting HTTP requests from clients, typically web browsers, and serving them HTTP responses, usually in the form of web pages, images, or other resources.
+
+- What are the things that client need to worry about when it sends HTTP request?
+1- Protocol 
+2- Address
+3- Route
+4- Headers/Body/Query Params
+5- Method
+
+- What are the things that servers need to worry about when it sends HTTP request?
+1- Response Headers
+2- Response Body
+3- Status codes
