@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+</head>
+<body>
+    <script>
+        function addTodo(){
+            const element = document.getElementById("box");
+            const title = document.getElementById("title").value;
+            const todo = document.getElementById("todo").value;
+            const heading = document.createElement("div");
+            heading.innerHTML = title;
+            const todos = document.createElement("div");
+            todos.innerHTML = todo;
+            element.appendChild(heading)
+            element.appendChild(todos)
+            console.log(heading,title)
+        }
+    </script>
+    <input type="text" placeholder="title" id="title">
+    <br><br>
+    <input type="text" placeholder="todo" id="todo">
+    <br><br>
+    <button onclick="addTodo()">Add todo</button>
+    <div id="box"></div>
+</body>
+</html>

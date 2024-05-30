@@ -1,0 +1,13 @@
+What is middleware?
+middleware refers to a series of functions or modules that process incoming HTTP requests and outgoing HTTP responses. Middleware functions have access to the request object (req), the response object (res), and the next middleware function in the application's request-response cycle. 
+if any Middleware is happen to be in every route below it then we can do 
+app.use(middleware)
+
+Global catches
+if any error occured in any route then Global catch function will be called
+
+Authentication
+Hashing: 1 way, we can't convert hashed password into original password
+Encryption: 2 way, required passwrod to encrypt as well as decrypt, biggest difference between hashing and encryption is that hasing doesn't require key whereas encryption reqires key
+JWT stands for json web token
+It works only on json 
