@@ -1,0 +1,32 @@
+You might’ve used express to create a Backend server.
+
+The way to run it usually is node index.js which starts a process on a certain port (3000 for example)
+
+When you have to deploy it on the internet, there are a few ways - 
+Go to aws, GCP, Azure, Cloudflare
+Rent a VM (Virtual Machine) and deploy your app
+Put it in an Auto scaling group
+Deploy it in a Kubernetes cluster
+ 
+There are a few downsides to doing this - 
+Taking care of how/when to scale 
+Base cost even if no one is visiting your website
+Monitoring various servers to make sure no server is down
+ 
+What if, you could just write the code and someone else could take care of all of these problems?
+
+What is serverless backends?
+"Serverless" is a backend deployment in which the cloud provider dynamically manages the allocation and provisioning of servers. The term "serverless" doesn't mean there are no servers involved. Instead, it means that developers and operators do not have to worry about the servers.
+
+Problems with this approach
+More expensive at scale
+Cold start problem
+
+
+
+
+tweet
+What are serverless functions/architecture
+Pros and Cons of serverless
+Introduction to cloudflare workers
+A library Hono which helps in writing routes for cloudflare workers

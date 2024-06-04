@@ -1,0 +1,20 @@
+target: ts file converted into which version of js
+rootdir and outdir
+noImplicit
+remove comment
+
+
+if you define a interface  then you can implement a class
+
+
+
+
+What have I learned today?
+
+- Intro to typescript
+- Played around tsconfig.json
+- Interface in typescript
+- Types in typescript
+- Difference between interface and types
+- Enums,Generics
+- Basic concept of Binary Tree

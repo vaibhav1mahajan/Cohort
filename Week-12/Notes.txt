@@ -1,0 +1,17 @@
+What have I learned today?
+
+- Meaning of distribution and storage in terms of deploying website
+- What are CDNs?
+- Explore Cloudfront (CDN by AWS)
+- concept of PoPs(Points of Presence) 
+
+
+
+More typescirpt apis
+
+- pick
+- partial
+- readonly
+- exclude
+- relations
+- Type inference in zod

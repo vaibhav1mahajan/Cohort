@@ -1,0 +1,23 @@
+What is containerisation?
+Containerization is a software deployment process that bundles an application’s code with all the files and libraries it needs to run on any infrastructure.
+
+Why containerisation?
+Everyone has different  operating system and steps to run project can vary based on operating system and this becomes very hard to keep track of dependencies as project grows, what if there was a way to describe your project configuration in a single file and what if that could be run in a isolated enviornment. That's where docker comes in picture. 
+
+What is image?
+A docker image behave like a template from which consistent containers can be created.
+
+What have I learned today?
+- What is containerisation.
+- Why containerisation.
+- Images vs containers
+- Explored some basic docker commands
+  - docker build . -t <tag_name> (to make an image)
+  - docker run <tag_name>        (to start a container)
+  - docker login                 (to login in terminal)
+  - docker push <tag_name>       (to upload image to dockerhub)
+  - docker pull <tag_name>       (to pull image fron dockerhub)
+
+- How to integrate prsima in cloudflare workers
+- Relations , Joins  and Transactions in SQL
+  
